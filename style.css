@@ -71,9 +71,15 @@ nav {
         width: 65%;
     }
 
+    .search-box {
+        width: 75%;
+        position: relative;
+        left: -15px;
+    }
+
     .icon {
         position: relative;
-        right: 55px;
+        right: -15px;
     }
 
     .quote {
