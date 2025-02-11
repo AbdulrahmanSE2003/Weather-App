@@ -1,4 +1,4 @@
-body {
+html {
     font-family: "poppins";
     overflow-x: hidden;
 }
@@ -58,4 +58,12 @@ nav {
     background: #fff;
     color: #1d293dae;
     transition: color ease-in-out 0.4s, background-color ease-in-out 0.3s;
+}
+
+/* *SECTION - mopile Media */
+@media screen and (max-width:500px) {
+    nav {
+        justify-content: center;
+        gap: 0 12px;
+    }
 }
