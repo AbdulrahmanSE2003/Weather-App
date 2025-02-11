@@ -66,4 +66,25 @@ nav {
         justify-content: center;
         gap: 0 12px;
     }
+
+    .search {
+        width: 65%;
+    }
+
+    .icon {
+        position: relative;
+        right: 55px;
+    }
+
+    .quote {
+        top: 80px;
+    }
+
+    .trade-mark {
+        right: 10px;
+    }
+
+    .time {
+        left: 10px;
+    }
 }
