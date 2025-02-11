@@ -1,0 +1,61 @@
+body {
+    font-family: "poppins";
+    overflow-x: hidden;
+}
+
+.main-section::before {
+    content: '';
+    position: absolute;
+    background-image: url(images/starry-sky-desert-tent.jpg);
+    left: 0;
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.85) blur(0.8px);
+    z-index: -1;
+}
+
+nav {
+    z-index: 999;
+}
+
+#city-ip {
+    outline: none;
+}
+
+#city-ip::placeholder {
+    transition: all 0.3s ease-in-out;
+}
+
+#city-ip:focus::placeholder {
+    opacity: 0;
+}
+
+.news {
+    background-color: rgb(255 255 255 / 26%);
+    filter: blur(0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.additional {
+    background-color: rgb(228 228 228 / 58%);
+    filter: blur(0.5px);
+    border-radius: 20px;
+    border: 2px solid #fff;
+    width: 80%;
+}
+
+.main-color {
+    color: #1d293d;
+}
+
+.time:hover {
+    background: #fff;
+    color: #1d293dae;
+    transition: color ease-in-out 0.4s, background-color ease-in-out 0.3s;
+}

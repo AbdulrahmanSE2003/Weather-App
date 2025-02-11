@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mnmlst Weather</title>
+    <!-- *LINK - Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- *LINK - Tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- *LINK - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body class="relative">
+    <nav class="flex items-center justify-between py-3 px-3 sm:px-14 fixed w-full text-white">
+        <h6 class="logo font-semibold text-2xl  opacity-85">Mnmlst</h6>
+        <div class="search flex items-center justify-evenly border-white rounded-3xl border-2 px-3 sm:px-10 pl-5 py-2 gap-x-4">
+            <div class="search-box">
+                <input type="text" name="city" id="city-ip" class="p-2" placeholder="Type your city here">
+            </div>
+            <div class="icon cursor-pointer opacity-50 hover:opacity-100 transition-opacity duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </div>
+        </div>
+    </nav>
+    <h4 class="absolute text-white text-7xl sm:text-[8rem] opacity-5 left-8 top-12">The Weather <br>(App)</h4>
+    <div class="main-section h-screen mx-auto flex justify-center items-center relative">
+        
+    </div>
+    <div class="time absolute left-8 bottom-4 text-white rounded-2xl border-white border-2 py-2 px-8 cursor-pointer font-semibold"></div>
+    <div class="trade-mark absolute right-8 bottom-4 text-white font-normal  opacity-50 py-2">Powered By Mnmlst</div>
+    <script src="main.js"></script>
+</body>
+</html>
